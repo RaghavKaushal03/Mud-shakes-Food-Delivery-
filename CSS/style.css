@@ -30,7 +30,7 @@ html{
     height: 100%;
     width:100%;
     z-index: -1;
-    opacity: 0.7;
+    opacity: .7;
 }
 
 /* Navigation Bar: Logo and Image */
@@ -48,12 +48,15 @@ html{
 
 #navbar ul{
     display: flex;
-  font-family: 'Sansita Swashed', cursive;
+    /* font-family: 'Baloo Bhai', cursive; */
+    font-family: 'Sansita Swashed', cursive;
 }
 
 #navbar ul li{ 
     list-style: none;
     font-size: 1.3rem;
+    border-left: 1px solid rgb(85, 87, 57);  
+    border-right: 1px solid rgb(85, 87, 57);
 }
 
 #navbar ul li a{
@@ -88,13 +91,15 @@ html{
     left:0px;
     width: 100%;
     z-index: -1;
-    opacity:0.89;
+    opacity:0.90;
 }
 
 #home h1{
     color:white;
     text-align: center;
-   font-family: 'Sansita Swashed', cursive;
+    /* font-family: 'Bree Serif', serif; */
+
+    font-family: 'Sansita Swashed', cursive;
 }
 
 #home p{
@@ -102,6 +107,7 @@ html{
     text-align: center;
     font-size: 1.5rem;
     font-family: 'Bree Serif', serif;
+
 }
 /* Services Section */
 #services{
@@ -115,7 +121,12 @@ html{
     border-radius: 28px;
     background: #f2f2f2;
     margin-bottom: 20px;
+    transition-property: all;
+    transition-duration: 3s;
 
+}
+#services .box:hover{
+    background-color: rgb(233, 187, 187);
 }
 
 #services .box img{ 
@@ -134,6 +145,7 @@ html{
 /* Clients Section */
 #client-section{ 
     position: relative;
+    z-index: -2;
 }
 
 #client-section::before{
@@ -164,6 +176,8 @@ html{
 /* Contact Section */
 #contact{
     position: relative;
+    z-index: -2;
+    
 }
 #contact::before{
     content: "";
