@@ -48,7 +48,7 @@ html{
 
 #navbar ul{
     display: flex;
-    font-family: 'Baloo Bhai', cursive;
+  font-family: 'Sansita Swashed', cursive;
 }
 
 #navbar ul li{ 
@@ -94,7 +94,7 @@ html{
 #home h1{
     color:white;
     text-align: center;
-    font-family: 'Bree Serif', serif;
+   font-family: 'Sansita Swashed', cursive;
 }
 
 #home p{
